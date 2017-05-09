@@ -6,7 +6,7 @@ const Joi  = require('joi');
 const cmd      = argv['_'][0];
 const hostname = argv['hostname'];
 const kongurl  = argv['kong-url'];
-const file     = require(argv['file']);
+const service  = require(argv['file']);
 
 process.env.KONG_URL = kongurl;
 
