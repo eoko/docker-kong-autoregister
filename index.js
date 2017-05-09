@@ -3,14 +3,14 @@
 const argv  = require('minimist')(process.argv.slice(2));
 const Joi   = require('joi');
 
-const Api = require('./src/api');
-
 const cmd      = argv['_'][0];
 const hostname = argv['hostname'];
 const kongurl  = argv['kong-url'];
 const service  = argv['file'];
 
 process.env.KONG_URL = kongurl;
+
+const Api = require('./src/api');
 
 switch (cmd) {
   case 'validate':

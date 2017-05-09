@@ -31,7 +31,7 @@ node autoregister unregister
 node autoregister reload
 
 # with args
-node autoregister register --file /usr/src/app/service.json --kongurl 'kong-8001:8001' --hostname node
+autoregister register --file /usr/src/app/service.json --kong-url http://kong:8001 --hostname node
 ```
 
 This is a demo configuration that we can use with `containerpilot` :
