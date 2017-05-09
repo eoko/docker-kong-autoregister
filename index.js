@@ -1,12 +1,12 @@
 #!/usr/bin/env node
 
-const argv  = require('minimist')(process.argv.slice(2));
-const Joi   = require('joi');
+const argv = require('minimist')(process.argv.slice(2));
+const Joi  = require('joi');
 
 const cmd      = argv['_'][0];
 const hostname = argv['hostname'];
 const kongurl  = argv['kong-url'];
-const service  = argv['file'];
+const file     = require(argv['file']);
 
 process.env.KONG_URL = kongurl;
 
