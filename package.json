@@ -11,7 +11,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@eoko/kong-client": "latest"
+    "@eoko/kong-client": "latest",
+    "minimist": "latest",
+    "joi": "latest"
   },
   "devDependencies": {
     "chai": "latest",
