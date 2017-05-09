@@ -1,6 +1,6 @@
 {
   "name": "@eoko/docker-kong-autoregister",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "bin": {
     "autoregister": "./index.js"
