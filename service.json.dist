@@ -1,0 +1,5 @@
+{
+  "name": "sample-services",
+  "endpoint": "/services",
+  "port": 3000
+}

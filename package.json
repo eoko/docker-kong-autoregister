@@ -1,0 +1,21 @@
+{
+  "name": "@eoko/docker-kong-autoregister",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "snippet": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@eoko/kong-client": "latest"
+  },
+  "devDependencies": {
+    "chai": "latest",
+    "chai-as-promised": "latest",
+    "dotenv": "latest"
+  }
+}
